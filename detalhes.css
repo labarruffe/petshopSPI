@@ -82,3 +82,9 @@ a {
     margin-left: 130px;
     float: left;
 }
+
+.img-cart img:hover{
+    opacity: 1;
+    transition: all ease;
+    background: cornflowerblue;
+}
