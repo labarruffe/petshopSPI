@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Carrinho de Compras | Petshop SPI</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        @import "carrinho_compras.css";
+        @import "header.css";
+        @import "footer.css";
+    </style>
+</head>
+
+<body>
+
+  <header class="area">
+    <section id="sec_img">
+        <figure class="logo-pet"><img src="assets/logo-com-borda-pet.png" alt=""></figure>
+        <nav class="menu-tipos-pet">
+            <ul>
+                <li><a>Cães</a></li>
+                <li><a>Gatos</a></li>
+                <li><a>Peixes</a></li>
+            </ul>
+        </nav>
+        <form method="post" action="search.php" class="search-bar">
+            <figure class="lupa"><img src="assets/ic_search.png" alt=""></figure>
+            <input type="search" name="search" id="search" placeholder="Buscar produtos para seu Pet">
+        </form>
+        <div class="arrow-profile-cart">
+            <h3>Cadastre-se</h3>
+            <figure class="seta"><img src="assets/down-arrow.png" alt=""></figure>
+            <figure class="avatar"><img src="assets/Avatar.png" alt=""></figure>
+            <figure class="carrinho"><img src="assets/shopping-cart.png" alt=""></figure>
+        </div>
+    </section>
+</header>
+
+<main class="area">
+    <!--em action retirei o apontamento para o arquivo .php, a fim de permitir o click para navegar para o próximo html-->
+    <form action="formulario.html" method="post">
+        <section class="conteudo">
+            <h4 class="breadcrumb">
+                <a href="detalhes.html">
+                    Petshop > Detalhes do Produto > Carrinho de Compras
+                </a>
+            </h4>
+            <h2 class="titulo">Carrinho de Compras</h2>
+                <section id="tabela-produtos">
+                    <table>
+                        <tr>
+                            <th class="col-produto">Produto</th>
+                            <th class="col-titulo">Título</th>
+                            <th colspan="2" class="col-qtd">Quantidade</th>
+                            <th class="col-subtotal">Subtotal</th>
+                        </tr>
+                        <tr>
+                            <td><figure><img src="assets/racao3.png" alt="Texto alternativo 1"></figure></td>
+                            <td><span>Ração Performance Cães Obesos</span></td>
+                            <td><input type="number" name="valor" id="valor" min="1" max="10" step="1" value="1"></td>
+                            <td><h4>Remover</h4></td>
+                            <td><h3>R$ 165,00</h3></td>
+                        </tr>
+                        <tr>
+                            <td><figure><img src="assets/racao9.png" alt="Texto alternativo 1"></figure></td>
+                            <td><span>Ração Royal Indoor Gatos Adultos</span></td>
+                            <td><input type="number" name="valor" id="valor" min="1" max="10" step="1" value="1"></td>
+                            <td><h4>Remover</h4></td>
+                            <td><h3>R$ 124,00</h3></td>
+                        </tr>
+                        <tr>
+                            <td><figure><img src="assets/racao8.png" alt="Texto alternativo 1"></figure></td>
+                            <td><span>Ração Úmida Baby Cat para filhotes</span></td>
+                            <td><input type="number" name="valor" id="valor" min="1" max="10" step="1" value="2"></td>
+                            <td><h4>Remover</h4></td>
+                            <td><h3>R$ 16,10</h3></td>
+                        </tr>
+                        <tr>
+                            <td><figure><img src="assets/racaop4.png" alt="Texto alternativo 1"></figure></td>
+                            <td><span>Ração para Peixe Gold Fish Colours</span></td>
+                            <td><input type="number" name="valor" id="valor" min="1" max="10" step="1" value="1"></td>
+                            <td><h4>Remover</h4></td>
+                            <td><h3>R$ 4,55</h3></td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section id="lateral">
+                    <table>
+                        <tr>
+                            <td><h2 class="total">Total:</h2></td>
+                            <td><h2 class="price">R$ 309,65</h2></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" name="acao" id="acao" value="Finalizar Pedido"></td>
+                        </tr>
+                    </table>
+                </section>
+        </section>
+    </form>   
+</main>
+
+<!-- sectioning elements: footer - estrutura de rodapé -->
+<footer class="area">
+
+    <div id="footerid">
+        <div class="foot1">
+            <h4>CNPJ: 74.255.230/1234-66</h4>
+            <address>Avenida Moreto de Moraes, 7200 - CEP: 92123-987 - Centro - Porto Alegre RS</address>
+            <h4>© 2018, Petshop SPI - A Pet de Sistemas para Internet</h4>
+        </div>
+        <div class="foot2">
+            <h4 class="titulo-contatos">Nossos Contatos</h4>
+            <h4>+51 348 678 903</h4>
+            <h4>petshop_spi@gmail.com</h4>
+            <figure><img src="assets/social.png" alt=""></figure>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>

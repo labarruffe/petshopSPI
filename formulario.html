@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário | Petshop SPI</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        @import "formulario.css";
+        @import "header.css";
+        @import "footer.css";
+    </style>
+</head>
+
+<body>
+
+  <header class="area">
+    <section id="sec_img">
+        <figure class="logo-pet"><img src="assets/logo-com-borda-pet.png" alt=""></figure>
+        <nav class="menu-tipos-pet">
+            <ul>
+                <li><a>Cães</a></li>
+                <li><a>Gatos</a></li>
+                <li><a>Peixes</a></li>
+            </ul>
+        </nav>
+        <form method="post" action="search.php" class="search-bar">
+            <figure class="lupa"><img src="assets/ic_search.png" alt=""></figure>
+            <input type="search" name="search" id="search" placeholder="Buscar produtos para seu Pet">
+        </form>
+        <div class="arrow-profile-cart">
+            <h3>Cadastre-se</h3>
+            <figure class="seta"><img src="assets/down-arrow.png" alt=""></figure>
+            <figure class="avatar"><img src="assets/Avatar.png" alt=""></figure>
+            <figure class="carrinho"><img src="assets/shopping-cart.png" alt=""></figure>
+        </div>
+    </section>
+</header>
+
+<main class="area">
+
+    <section class="forms">
+            <h4 class="breadcrumb">
+                <a href="carrinho_compras.html">
+                    Petshop > Detalhes do Produto > Carrinho de Compras > Formulário
+                </a>    
+            </h4>
+            <h2 class="titulo">Preencha seus dados para finalizar o pagamento</h2>
+            <form method="post" action="cadastrar.php">
+                <label for="nome">Nome Completo</label>
+                <input type="text" name="nome" id="nome" placeholder="">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" placeholder="">
+                <label for="contato">E-mail</label>
+                <input type="email" name="user" id="contato" placeholder="fulano@gmail.com">
+                <label for="password">Senha</label>
+                <input type="password" name="user" id="password" placeholder="">
+                <label for="data">Data Nascimento:</label>
+                <input type="date" name="data" id="data">
+                <input type="submit" name="acao" id="acao" value="Finalizar Pagamento">
+            </form>
+    </section>
+    
+</main>
+
+<!-- sectioning elements: footer - estrutura de rodapé -->
+<footer class="area">
+
+    <div id="footerid">
+        <div class="foot1">
+            <h4>CNPJ: 74.255.230/1234-66</h4>
+            <address>Avenida Moreto de Moraes, 7200 - CEP: 92123-987 - Centro - Porto Alegre RS</address>
+            <h4>© 2018, Petshop SPI - A Pet de Sistemas para Internet</h4>
+        </div>
+        <div class="foot2">
+            <h4 class="titulo-contatos">Nossos Contatos</h4>
+            <h4>+51 348 678 903</h4>
+            <h4>petshop_spi@gmail.com</h4>
+            <figure><img src="assets/social.png" alt=""></figure>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>

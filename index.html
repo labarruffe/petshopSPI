@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Petshop SPI | A Pet de Sistemas para Internet</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <style type="text/css">
+        @import "header.css";
+        @import "homepage.css";
+        @import "footer.css";
+        @import "slick-slider.css";
+    </style>
+</head>
+
+<body>
+
+<header class="area">
+    <section id="sec_img">
+        <figure class="logo-pet"><img src="assets/logo-com-borda-pet.png" alt=""></figure>
+        <nav class="menu-tipos-pet">
+            <ul>
+                <li><a href="#caes">Cães</a></li>
+                <li><a href="#gatos">Gatos</a></li>
+                <li><a href="#peixes">Peixes</a></li>
+            </ul>
+        </nav>
+        <form method="post" action="search.php" class="search-bar">
+            <figure class="lupa"><img src="assets/ic_search.png" alt=""></figure>
+            <input type="search" name="search" id="search" placeholder="Buscar produtos para seu Pet">
+        </form>
+        <div class="arrow-profile-cart">
+            <h3>Cadastre-se</h3>
+            <figure class="seta"><img src="assets/down-arrow.png" alt=""></figure>
+            <figure class="avatar"><img src="assets/Avatar.png" alt=""></figure>
+            <figure class="carrinho"><img src="assets/shopping-cart.png" alt=""></figure>
+        </div>
+    </section>
+</header>
+
+<main class="area">
+
+    <section class="lazy slider" data-sizes="50vw">
+        <div>
+            <img data-lazy="assets/banner-gato.png" data-srcset="assets/banner-gato.png" data-sizes="1500vw">
+        </div>
+        <div>
+            <img data-lazy="assets/banner-peixe.png" data-srcset="assets/banner-peixe.png" data-sizes="1500vw">
+        </div>
+        <div>
+            <img data-lazy="assets/banner-cao.png"  data-srcset="assets/banner-cao.png" data-sizes="1500vw">
+        </div>
+    </section>
+
+    <section class="conteudo">
+
+
+        <h2 class="title">
+            Confira nossos produtos
+        </h2>
+
+        <div class="tab" id="produtos">
+            <div class="post" id="caes">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racao5.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração Royal Canin para Cães Adultos</h3></span>
+                <h2 class="price">R$ 141,90</h2>
+                <figure class="img-cart">  
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racao1.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração Pedigree Cães de Pequeno Porte</h3></span>
+                <h2 class="price">R$ 167,40</h2>
+               <figure class="img-cart">
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racao18.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração Premier Cães Adultos</h3></span>
+                <h2 class="price">R$ 242,75</h2>
+                <figure class="img-cart">
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racao3.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração Performance Cães Obesos</h3></span>
+                <h2 class="price">R$ 165,00</h2>
+               <figure class="img-cart">
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post" id="gatos">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racao6.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração Premium para Gatos Adultos</h3></span>
+                <h2 class="price">R$ 142,45</h2>
+                <figure class="img-cart">
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">/
+                        <img src="assets/racao9.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração Royal Indoor Gatos Adultos</h3></span>
+                <h2 class="price">R$ 124,00</h2>
+                <figure class="img-cart">
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racao7.png" alt="Texto alternativo 1">
+                    </a>    
+                </figure>
+                <span><h3>Ração Úmida Royal Light para Gatos</h3></span>
+                <h2 class="price">R$ 14,90</h2>
+                <figure class="img-cart">
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racao8.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração Úmida Baby Cat para filhotes</h3></span>
+                <h2 class="price">R$ 8,05</h2>
+                <figure class="img-cart">
+                    <a href="carrinho_compras.html">                
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post" id="peixes">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racaop1.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração para Peixes Carnívoros</h3></span>
+                <h2 class="price">R$ 33,48</h2>
+                <figure class="img-cart">
+                    <a href="carrinho_compras.html">                
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racaop2.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração para Peixe Large Flakes Alcon</h3></span>
+                <h2 class="price">R$ 10,25</h2>
+                <figure class="img-cart">
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racaop3.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração para Peixe Alcon Guard 20g</h3></span>
+                <h2 class="price">R$ 16,54</h2>
+                <figure class="img-cart">            
+                    <a href="carrinho_compras.html">                        
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+            <div class="post">
+                <figure>
+                    <a href="detalhes.html">
+                        <img src="assets/racaop4.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+                <span><h3>Ração para Peixe Gold Fish Colours</h3></span>
+                <h2 class="price">R$ 4,55</h2>
+                <figure class="img-cart">                    
+                    <a href="carrinho_compras.html">
+                        <img src="assets/cart.png" alt="Texto alternativo 1">
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+<!-- sectioning elements: footer - estrutura de rodapé -->
+<footer class="area">
+
+    <div id="footerid">
+        <div class="foot1">
+            <h4>CNPJ: 74.255.230/1234-66</h4>
+            <address>Avenida Moreto de Moraes, 7200 - CEP: 92123-987 - Centro - Porto Alegre RS</address>
+            <h4>© 2018, Petshop SPI - A Pet de Sistemas para Internet</h4>
+        </div>
+        <div class="foot2">
+            <h4 class="titulo-contatos">Nossos Contatos</h4>
+            <h4>+51 348 678 903</h4>
+            <h4>petshop_spi@gmail.com</h4>
+            <figure><img src="assets/social.png" alt=""></figure>
+        </div>
+
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).on('ready', function() {
+
+        $(".lazy").slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true,
+            dots: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            fade: true,
+            cssEase: 'linear',
+            pauseOnHover: true
+        });
+    });
+</script>
+
+</body>
+</html>

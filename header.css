@@ -1,0 +1,88 @@
+header {
+    height: 175px;
+    background-color: #00233B;
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.logo-pet{
+    margin-left: 30px;
+    position: absolute;
+}
+
+.menu-tipos-pet {
+    width: 28%;
+    margin-left: 340px;
+    float: left;
+    margin-top: 104px;
+}
+
+
+.menu-tipos-pet li {
+    display:inline-block;
+    text-transform: uppercase;
+}
+
+.menu-tipos-pet li a {
+    padding: 15px 35px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-bar {
+    width: 22%;
+    margin-top: 35px;
+    float: left;
+}
+
+.search-bar input[type="search"]{
+    height:40px;
+    width: 320px;
+    margin-top: 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+header form input {
+    width: 220px;
+    margin-left: 5px;
+}
+
+.search-bar .lupa {
+    position: relative;
+    top: 68px;
+    left: 295px;
+}
+
+.arrow-profile-cart {
+    width: 23%;
+    margin-top: 100px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.arrow-profile-cart .seta {
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
+.arrow-profile-cart .avatar {
+    float: left;
+    margin-top: -12px;
+    margin-left: 45px;
+}
+
+.arrow-profile-cart .carrinho {
+    float: left;
+    margin-left: 45px;
+}
+
+.arrow-profile-cart figure, .arrow-profile-cart h3 {
+    float: left;
+}

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Regular.otf");
+}
+
+/* propriedades que serão aplicadas em todos os elementos do HTML */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* essas duas propriedades se repetem em pelo menos três elementos, logo vale a pena criar um regra a ser aplicada via class no HTML */
+.area {
+    width: 1500px;
+    margin: auto;
+}
+
+main {
+    height: 800px;
+    color: #454D4E;
+}
+
+.forms {
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+}
+
+.forms .breadcrumb {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 15px;
+    float: left;
+}
+
+a {
+    color: #454D4E;
+    text-decoration: none;
+}
+
+.forms .titulo {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    width: 70%;
+    float: left;
+    font-weight: bold;
+}
+
+.forms form {
+    margin-top: 50px;
+    margin-left: 550px;
+    float: left;
+}
+
+.forms form label, input {
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}
+
+.forms input{
+    height:40px;
+    width: 400px;
+    font-size: 15px;
+    color: black;
+    font-family: Roboto;
+    border: 1px solid #454D4E;
+    border-radius: 5px;
+}
+
+.forms input[type="submit"]{
+    height:40px;
+    width: 180px;
+    font-size: 15px;
+    background-color: #74D14C;
+    color: white;
+    font-family: Roboto;
+    border: none;
+    border-radius: 5px;
+    top: 70px; 
+    left: -290px;
+    position: relative;
+}

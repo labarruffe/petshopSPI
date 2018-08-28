@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Regular.otf");
+}
+
+/* propriedades que serão aplicadas em todos os elementos do HTML */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* essas duas propriedades se repetem em pelo menos três elementos, logo vale a pena criar um regra a ser aplicada via class no HTML */
+.area {
+    width: 1500px;
+    margin: auto;
+}
+
+main {
+    height: 1000px;
+    color: #454D4E;
+}
+
+#lateral {
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+    float: left;
+    font-family: Roboto;
+}
+
+#lateral .breadcrumb {
+    margin-top: 100px;
+    font-size: 15px;
+    float: left;
+}
+
+a {
+    color: #454D4E;
+    text-decoration: none;
+}
+
+#lateral .titulo {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+}
+
+#lateral .detalhes-conteudo {
+    margin-top: 50px;
+    font-size: 20px;
+    float: left;
+}
+
+#lateral p {
+    line-height: 25px;
+}
+
+#lateral .img-stars {
+    width: 48%;
+    margin-top: 50px;
+    float: left;
+}
+
+#lateral .img-cart {
+    width: 48%;
+    margin-top: 50px;
+    text-align: right; 
+    float: right;
+}
+
+#lateral .price {
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+
+#imgcont {
+    width: 33%;
+    margin-top: 235px;
+    margin-left: 130px;
+    float: left;
+}
